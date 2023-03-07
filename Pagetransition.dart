@@ -1,7 +1,11 @@
+dependencies:
+  page_transition: ^2.0.9 // Add this Package if you want to use it
+    
+
 import 'package:demo/CustomPageTransition.dart';
 import 'package:demo/Deviceinfo.dart';
 import 'package:flutter/material.dart';
-import 'package:page_transition/page_transition.dart';
+import 'package:page_transition/page_transition.dart';  // Also import this package 
 
 class Pagetransitionapp extends StatefulWidget {
   const Pagetransitionapp({super.key});
